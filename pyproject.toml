@@ -1,0 +1,11 @@
+[project]
+name = "timerosema-signals"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "loguru>=0.7.3",
+    "pyzmq>=27.1.0",
+    "tqsdk>=3.9.0",
+]

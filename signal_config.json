@@ -1,0 +1,23 @@
+{
+  "server": {
+    "host": "10.1.1.121",
+    "port": 3333,
+    "protocol": "tcp"
+  },
+  "zmq": {
+    "socket_type": "REQ",
+    "receive_timeout": 1000,
+    "send_timeout": 1000,
+    "poll_timeout": 1000
+  },
+  "client": {
+    "default_name": "test",
+    "retry_attempts": 3,
+    "retry_delay": 1000
+  },
+  "logging": {
+    "enabled": true,
+    "level": "INFO",
+    "format": "%(asctime)s - %(levelname)s - %(message)s"
+  }
+}
